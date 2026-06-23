@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+*{
+    margin:0;
+    padding:0;
+    background:#000;
+    color:#fff;
+}
+.nav{
+    display:flex;
+    gap:32px;
+    padding:10px 16px;
+}
+.logo{
+    font-weight:bold;
+    font-size:22px;
+}
+.box2{
+    width:600px;
+    margin:40px auto;
+    text-align:center;
+    padding:20px;
+}
+.box2 h2{font-size:52px;}
+.box2 p{font-size:13px;color:#aaa;}
+.green-small{color:#1a2dda;font-size:14px;}
+.gradient{
+    background:linear-gradient(90deg,#511aeb,#eb6ec6);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+}
+.log-wrap{
+    margin:0 20px;
+    padding:15px;
+}
+.item3{
+    border-left:2px dashed #fff;
+    padding:8px 12px;
+    margin-bottom:0;
+}
+.item4,.item5{
+    border-left:2px dashed #fff;
+    padding:8px 12px;
+    margin-bottom:0;
+}
+.date{grid-row:1;}
+li:nth-child(1){grid-row:1;}
+li:nth-child(2){grid-row:3;}
+.ver{grid-row:3;}
+ul{
+    display:block;
+    padding-left:20px;
+    line-height:3.3;
+    margin:0;
+}
+.line1{
+    display:flex;
+    gap:20px;
+    margin-bottom:0;
+}
+.left{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+}
+.ver{margin-top:-4px;}
+.date{color:#3a16eb;min-width:160px;}
+ul{padding-left:20px;line-height:2;margin:0;}
+</style>
+</head>
+<body>
+    <div class="nav">
+        <span class="logo">TRAE</span>
+        <span>产品</span>
+        <span>企业版</span>
+        <span>定价</span>
+        <span>文档</span>
+        <span>更新日志</span>
+        <span>社区</span>
+        <span>知识库</span>
+    </div>
+
+    <div class="box2">
+        <div class="green-small">更新日志</div>
+        <h2>探索 TRAE 的<span class="gradient">最新动态</span></h2>
+        <p>随时掌握 TRAE 的变化，了解我们为您带来的创新与优化</p >
+        <button>了解更多</button>
+    </div>
+
+    <div class="log-wrap">
+        <div class="item3">
+            <div class="line1">
+                <div class="date">2026-06-09</div>
+                <ul>
+                    <li>TRAE APP 支持对登录设备删除/重命名的操作。</li>
+                    <li>TRAE APP 可选择内置模型、自定义模型、其他模型等。</li>
+                </ul>
+            </div>
+            <div class="ver">v6.0.8 TRAE APP</div>
+        </div>
+        <div class="item4">
+            <div class="line1">
+                <div class="date">2026-06-09</div>
+                <ul>
+                    <li>TRAE SOLO 升级为 TRAE Work。</li>
+                    <li>TRAE Work 支持企业版账号登录。</li>
+                </ul>
+            </div>
+            <div class="ver">v6.1.18 TRAE Work</div>
+        </div>
+        <div class="item5">
+            <div class="line1">
+                <div class="date">2026-06-08</div>
+                <ul>
+                    <li>修复了一些线上已知问题。</li>
+                </ul>
+            </div>
+            <div class="ver">v0.1.16-0.1.17 TRAE Work</div>
+        </div>
+    </div>
+</body>
+</html>
